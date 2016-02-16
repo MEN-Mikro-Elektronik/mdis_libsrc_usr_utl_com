@@ -30,7 +30,7 @@
  *---------------------------------------------------------------------------
  * (c) Copyright 2009 by MEN mikro elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
-#if !defined(VXWORKS) && !defined(__QNX__)
+#if defined(OS9000)
 static const char RCSid[]="$Header: /dd2/CVSR/COM/LIBSRC/USR_UTL/COM/permit.c,v 1.3 2014/10/29 12:03:39 channoyer Exp $";
 
 #include    <types.h>
@@ -72,4 +72,5 @@ UTL_Permit( u_int8 *base, u_int32 size )
 	}
 	return(0);
 }
-#endif /* VXWORKS && __QNX__ */
+#endif /* OS9000 */
+

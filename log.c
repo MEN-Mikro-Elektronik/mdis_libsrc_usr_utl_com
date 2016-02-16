@@ -33,7 +33,7 @@
  *---------------------------------------------------------------------------
  * (c) Copyright 2007 by MEN mikro elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
-#if !defined(VXWORKS) && !defined(__QNX__)
+#if defined(OS9000)
 #ifdef	RCSID
 static const char RCSid[]="$Header: /dd2/CVSR/COM/LIBSRC/USR_UTL/COM/log.c,v 1.3 2014/10/29 12:02:33 channoyer Exp $";
 #endif
@@ -383,4 +383,4 @@ UTL_Gettime( char *bp )
 
 	strftime(bp, 32, "%H:%M:%S", tmp);
 }
-#endif /* VXWORKS && __QNX__ */
+#endif /* OS9000 */
