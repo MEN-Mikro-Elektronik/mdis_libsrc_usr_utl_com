@@ -74,8 +74,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-static const char RCSid[]="$Header: /dd2/CVSR/COM/LIBSRC/USR_UTL/COM/ident.c,v 1.14 2013/11/14 17:23:10 ts Exp $";
-
 #include <MEN/men_typs.h>
 #include <stdio.h>
 #include <MEN/usr_utl.h>
