@@ -14,19 +14,6 @@
  *
  *---------------------------[ Public Functions ]----------------------------
  *
- *-------------------------------[ History ]---------------------------------
- * $Log: permit.c,v $
- * Revision 1.3  2014/10/29 12:03:39  channoyer
- * R: Files for OS9 cant be compiled under QNX due to different errors
- * M: enclose whole code with #ifndef __QNX__
- *
- * Revision 1.2  2013/10/29 15:40:09  ts
- * R: Files for OS9 cant be compiled under VxWorks due to different errors
- * M: enclose whole code with #ifndef VXWORKS
- *
- * Revision 1.1  2012/12/05 10:55:09  ww
- * Initial Revision
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2009 by MEN mikro elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/
