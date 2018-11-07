@@ -10,45 +10,7 @@
  *  	 \brief  Test command line options
  *    \switches  none
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: tstopt.c,v $
- * Revision 1.9  2009/07/22 13:27:01  dpfeuffer
- * R: Generate doxygen documentation for MDIS5
- * M: file and function headers changed for doxygen
- *
- * Revision 1.8  2009/03/31 10:56:41  ufranke
- * cosmetics
- *
- * Revision 1.7  2005/06/30 10:46:35  UFranke
- * cosmetics
- *
- * Revision 1.6  1998/11/05 09:42:59  see
- * UTL_Illiopt: check for empty option ('-')
- *
- * Revision 1.5  1998/09/18 15:31:58  see
- * include string.h for strchr() prototype
- *
- * Revision 1.4  1998/08/11 16:16:57  Schmidt
- * index() replaced with strchr()
- * UTL_Tstopt()  : prototype 'index()' removed
- * UTL_Illiopt() : prototype 'index()' removed
- *
- * Revision 1.3  1998/08/10 10:58:34  see
- * UTL_Illopt: error message buffer is now passed as arg
- *
- * Revision 1.2  1998/08/10 10:44:36  see
- * UTL_Tstopt: ":" and "!" format no longer supported
- * UTL_Tstopt: return NULL instead of exit()
- * UTL_Tstopt: default arg removed
- * UTL_Illopt: format checking is now done
- * UTL_Illopt: returns now error message
- *
- * Revision 1.1  1998/07/02 15:29:17  see
- * Added by mcvs
- *
- * cloned from UTI lib
- *
+/*
  *---------------------------------------------------------------------------
  * Copyright (c) 1998 MEN Mikro Elektronik GmbH. All rights reserved.
  ******************************************************************************/

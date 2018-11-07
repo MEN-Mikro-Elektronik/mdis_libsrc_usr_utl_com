@@ -10,46 +10,7 @@
  *  	 \brief  Print formatted hexdump
  *    \switches  none
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: memdump.c,v $
- * Revision 1.11  2009/07/22 13:26:59  dpfeuffer
- * R: Generate doxygen documentation for MDIS5
- * M: file and function headers changed for doxygen
- *
- * Revision 1.10  2009/03/31 10:56:26  ufranke
- * cosmetics
- *
- * Revision 1.9  2008/08/18 15:12:58  CKauntz
- * Added MENTYPS_64bit switch for 64 bit support and correct address view
- *
- * Revision 1.8  2005/06/30 10:46:19  UFranke
- * cosmetics
- *
- * Revision 1.7  2003/11/12 13:48:45  dschmidt
- * __MAPILIB prefix added
- *
- * __MAPILIB prefix added
- * Revision 1.6  1999/07/20 14:46:11  Franke
- * removed bug at word/byte print
- *
- * Revision 1.5  1999/04/15 14:16:55  Franke
- * cosmetics
- *
- * Revision 1.4  1999/02/15 15:12:12  see
- * UTL_Memdump: recognize and indent with trailing blanks
- *
- * Revision 1.3  1998/08/11 16:16:54  Schmidt
- * unreferenced local variable 'c' removed
- *
- * Revision 1.2  1998/08/10 10:44:32  see
- * cosmetics
- *
- * Revision 1.1  1998/07/02 15:29:16  see
- * Added by mcvs
- *
- * cloned from S_UTILS lib
- *
+/*
  *---------------------------------------------------------------------------
  * Copyright (c) 1998 MEN Mikro Elektronik GmbH. All rights reserved.
  ******************************************************************************/

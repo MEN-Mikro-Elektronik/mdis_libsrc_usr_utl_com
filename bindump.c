@@ -10,31 +10,7 @@
  *  	 \brief  Binary dump routine
  *    \switches  none
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: bindump.c,v $
- * Revision 1.6  2009/07/22 13:26:57  dpfeuffer
- * R: Generate doxygen documentation for MDIS5
- * M: file and function headers changed for doxygen
- *
- * Revision 1.5  2009/03/31 10:55:45  ufranke
- * cosmetics
- *
- * Revision 1.4  2005/06/30 10:45:46  UFranke
- * cosmetics
- *
- * Revision 1.3  1998/08/11 16:16:50  Schmidt
- * UTL_Bindump() : unreferenced local variables 'n' and 'count' removed
- *
- * Revision 1.2  1998/08/10 10:44:29  see
- * UTL_Bindump: string buffer is now passed from application
- * UTL_Bindump: format changed to nr of bits
- *
- * Revision 1.1  1998/07/02 15:29:14  see
- * Added by mcvs
- *
- * cloned from S_UTILS lib
- *
+/*
  *---------------------------------------------------------------------------
  * Copyright (c) 1998 MEN Mikro Elektronik GmbH. All rights reserved.
  ******************************************************************************/
