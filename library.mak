@@ -6,20 +6,8 @@
 #
 #    Description: Makefile descriptor file for USR_UTL lib
 #
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: library.mak,v $
-#   Revision 1.3  2012/12/05 10:57:13  ww
-#   added permit.c, protect.c and log.c.
-#
-#   Revision 1.2  1998/09/09 10:01:07  Schmidt
-#   sourcefile ident.c added
-#
-#   Revision 1.1  1998/07/02 15:29:09  see
-#   Added by mcvs
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuernberg, Germany
+#   Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
