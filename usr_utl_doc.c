@@ -46,6 +46,6 @@
  \include tstopt.txt
 */
 
-/*! \page _dummy MEN logo
+/*! \page utldummy MEN logo
  \menimages
 */
