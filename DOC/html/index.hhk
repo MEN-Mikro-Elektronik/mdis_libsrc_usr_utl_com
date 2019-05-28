@@ -14,7 +14,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="ident_8c.html"><param name="Name" value="ident.c"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ident_8c.html#a1"><param name="Name" value="UTL_Ident"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ident_8c.html#a0"><param name="Name" value="UTL_Ident"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="memdump_8c.html"><param name="Name" value="memdump.c"></OBJECT>
   <UL>
@@ -35,7 +35,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="UTL_Ident"><param name="Name" value="UTL_Ident"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ident_8c.html#a1"><param name="Name" value="ident.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ident_8c.html#a0"><param name="Name" value="ident.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="UTL_Illiopt"><param name="Name" value="UTL_Illiopt"></OBJECT>
   <UL>
