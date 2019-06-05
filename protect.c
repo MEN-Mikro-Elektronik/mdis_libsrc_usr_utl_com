@@ -4,15 +4,11 @@
  *      Project: UTL library
  *
  *       Author: ww
- *        $Date: 2014/10/29 12:04:43 $
- *    $Revision: 1.3 $
  *
  *  Description: UTL_Protect routine
  *
  *     Required:
  *     Switches:
- *
- *---------------------------[ Public Functions ]----------------------------
  *
  *---------------------------------------------------------------------------
  * Copyright (c) 2009-2019, MEN Mikro Elektronik GmbH
@@ -31,8 +27,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
+
 #if defined(OS9000)
-static const char RCSid[]="$Header: /dd2/CVSR/COM/LIBSRC/USR_UTL/COM/protect.c,v 1.3 2014/10/29 12:04:43 channoyer Exp $";
 
 #include    <types.h>
 #include    <stdio.h>

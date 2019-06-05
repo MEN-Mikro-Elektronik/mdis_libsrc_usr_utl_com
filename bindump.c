@@ -3,8 +3,6 @@
  *        \file  bindump.c
  *
  *      \author  see
- *        $Date: 2009/07/22 13:26:57 $
- *    $Revision: 1.6 $
  *
  *     \project  UTL library
  *  	 \brief  Binary dump routine
@@ -28,8 +26,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-
-char UTL_bindump_RCSid[]="$Id: bindump.c,v 1.6 2009/07/22 13:26:57 dpfeuffer Exp $";
 
 #include <MEN/men_typs.h>
 #include <stdio.h>

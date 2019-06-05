@@ -3,8 +3,6 @@
  *        \file  ident.c
  *
  *      \author  see
- *        $Date: 2013/11/14 17:23:10 $
- *    $Revision: 1.14 $
  *
  *     \project  UTL library
  *  	 \brief  USR_UTL global edition history

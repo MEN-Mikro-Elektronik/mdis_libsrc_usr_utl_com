@@ -1,8 +1,6 @@
 #***************************  M a k e f i l e  *******************************
 #
 #         Author: see
-#          $Date: 2012/12/05 10:57:13 $
-#      $Revision: 1.3 $
 #
 #    Description: Makefile descriptor file for USR_UTL lib
 #
@@ -24,6 +22,11 @@
 
 
 MAK_NAME=usr_utl
+# the next line is updated during the MDIS installation
+STAMPED_REVISION="mdis_libsrc_usr_utl_com_01_42-5-g5063d1b-dirty_2019-05-28"
+
+DEF_REVISION=MAK_REVISION=$(STAMPED_REVISION)
+MAK_SWITCH=$(SW_PREFIX)$(DEF_REVISION)
 
 MAK_LIBS=
 

@@ -3,8 +3,6 @@
  *        \file  memdump.c
  *
  *      \author  see
- *        $Date: 2009/07/22 13:26:59 $
- *    $Revision: 1.11 $
  *
  *     \project  UTL library
  *  	 \brief  Print formatted hexdump
@@ -28,8 +26,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-
-char UTL_memdump_RCSid[]="$Id: memdump.c,v 1.11 2009/07/22 13:26:59 dpfeuffer Exp $";
 
 #include <MEN/men_typs.h>
 #include <stdio.h>

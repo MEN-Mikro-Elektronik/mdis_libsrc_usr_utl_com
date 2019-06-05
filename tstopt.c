@@ -3,8 +3,6 @@
  *        \file  tstopt.c
  *
  *      \author  see
- *        $Date: 2009/07/22 13:27:01 $
- *    $Revision: 1.9 $
  *
  *     \project  UTL library
  *  	 \brief  Test command line options
@@ -28,8 +26,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-
-char *UTL_tstopt_RCSid="$Id: tstopt.c,v 1.9 2009/07/22 13:27:01 dpfeuffer Exp $";
 
 #include <MEN/men_typs.h>
 #include <stdio.h>

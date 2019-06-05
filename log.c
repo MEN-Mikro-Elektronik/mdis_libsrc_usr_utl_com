@@ -4,17 +4,12 @@
  *      Project: usr_utl
  *
  *       Author: ww
- *        $Date: 2014/10/29 12:02:33 $
- *    $Revision: 1.3 $
  *
  *  Description: debugger logfile
  *
  *
  *     Required: -
  *     Switches: -
- *
- *---------------------------[ Public Functions ]----------------------------
- *
  *
  *---------------------------------------------------------------------------
  * Copyright (c) 2007-2019, MEN Mikro Elektronik GmbH
@@ -33,10 +28,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
+
 #if defined(OS9000)
-#ifdef	RCSID
-static const char RCSid[]="$Header: /dd2/CVSR/COM/LIBSRC/USR_UTL/COM/log.c,v 1.3 2014/10/29 12:02:33 channoyer Exp $";
-#endif
 
 #include	<stdio.h>
 #include	<stdarg.h>

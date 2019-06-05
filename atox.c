@@ -3,8 +3,6 @@
  *        \file  atox.c
  *
  *      \author  see
- *        $Date: 2009/07/22 13:26:55 $
- *    $Revision: 1.7 $
  *
  *     \project  UTL library
  *  	 \brief  Ascii (hex-format) to integer conversion
@@ -28,8 +26,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-
-char *UTL_atox_RCSid="$Id: atox.c,v 1.7 2009/07/22 13:26:55 dpfeuffer Exp $";
 
 #include <MEN/men_typs.h>
 #include <stdio.h>

@@ -3,8 +3,6 @@
  *        \file  usr_utl_doc.c
  *
  *      \author  christian.kauntz@men.de
- *        $Date: 2009/07/22 13:29:13 $
- *    $Revision: 1.1 $
  *
  *       \brief  USR_UTL specification.
  */
