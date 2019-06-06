@@ -95,38 +95,6 @@ u_int32	g_version()	{	return((u_int32)EDITION);	}
 u_int32	g_build()	{	return((u_int32)BUILD);		}
 u_int32	g_year()	{	return((u_int32)YEAR);		}
 
-/********************************** g_revision ******************************
- *
- *  Description:  revision ans date
- *
- *
- *---------------------------------------------------------------------------
- *  Input......:  ---
- *  Output.....:  pointer
- *  Globals....:  ---
- ****************************************************************************/
-char *
-g_revision()
-{
-    static char *revision   = "$Revision: 1.3 $";
-
-	return &revision[11];
-}
-char *
-g_date()
-{
-    static char *date       = "$Date: 2014/10/29 12:02:33 $";
-
-	return &date[7];
-}
-char *
-g_copyright()
-{
-	static char *copyright 	= "(c) Copyright 2012 by MEN Mikro Elektronik GmbH, Nuremberg, Germany";
-
-	return &copyright[0];
-}
-
 #ifndef S_FILEPOINTER
 /**********************************************************************/
 /** Create Logfile
@@ -159,7 +127,7 @@ UTL_Logfile_Open(char *lp)
 		}
 		else {
 			fputs("\nopen logfile\n", G_fp);
-			fprintf( G_fp, "V%3.3s, Build %d, (c) Copyright by men GmbH %4.4s\n", g_revision(), g_build(), g_date());
+			fprintf( G_fp, "Copyright (c) 2007-2019, MEN Mikro Elektronik GmbH\n");
 			fflush(G_fp);
 			G_logfile_flag = 1;
 		}
