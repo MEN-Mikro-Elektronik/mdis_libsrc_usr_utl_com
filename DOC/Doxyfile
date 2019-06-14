@@ -9,7 +9,6 @@
 # General configuration options
 ---------------------------------------------------------------------------
 PROJECT_NAME           = "USR_UTL Library"
-PROJECT_NUMBER         = 
 OUTPUT_DIRECTORY       = .
 
 #---------------------------------------------------------------------------
