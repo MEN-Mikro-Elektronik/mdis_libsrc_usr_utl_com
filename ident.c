@@ -31,6 +31,8 @@
 #include <stdio.h>
 #include <MEN/usr_utl.h>
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+
 /**********************************************************************/
 /** Return ident string of UTL module
  *
@@ -38,5 +40,5 @@
  */
 char* UTL_Ident( void )
 {
-	return("UTL - User Utilities: %FSREV COM/LIBSRC/usr_utl 1.30 2013-11-14%");
+	return( (char*) IdentString);
 }
