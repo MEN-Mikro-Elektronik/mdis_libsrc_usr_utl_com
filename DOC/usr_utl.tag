@@ -12,7 +12,7 @@
     <member kind="function">
       <type>u_int32</type>
       <name>UTL_Atox</name>
-      <anchor>a1</anchor>
+      <anchor>a0</anchor>
       <arglist>(char *str)</arglist>
     </member>
   </compound>
@@ -23,7 +23,7 @@
     <member kind="function">
       <type>char *</type>
       <name>UTL_Bindump</name>
-      <anchor>a1</anchor>
+      <anchor>a0</anchor>
       <arglist>(u_int32 data, u_int32 bits, char *buf)</arglist>
     </member>
   </compound>
@@ -34,7 +34,7 @@
     <member kind="function">
       <type>char *</type>
       <name>UTL_Ident</name>
-      <anchor>a0</anchor>
+      <anchor>a1</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -45,7 +45,7 @@
     <member kind="function">
       <type>void __MAPILIB</type>
       <name>UTL_Memdump</name>
-      <anchor>a1</anchor>
+      <anchor>a0</anchor>
       <arglist>(char *info, char *buf, u_int32 n, u_int32 fmt)</arglist>
     </member>
   </compound>
@@ -56,13 +56,13 @@
     <member kind="function">
       <type>char *</type>
       <name>UTL_Tstopt</name>
-      <anchor>a1</anchor>
+      <anchor>a0</anchor>
       <arglist>(int argc, char **argv, char *option)</arglist>
     </member>
     <member kind="function">
       <type>char *</type>
       <name>UTL_Illiopt</name>
-      <anchor>a2</anchor>
+      <anchor>a1</anchor>
       <arglist>(int argc, char **argv, char *opts, char *errstr)</arglist>
     </member>
   </compound>
