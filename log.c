@@ -12,7 +12,7 @@
  *     Switches: -
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 2007-2019, MEN Mikro Elektronik GmbH
+ * Copyright 2007-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This library is free software; you can redistribute it and/or
@@ -127,7 +127,7 @@ UTL_Logfile_Open(char *lp)
 		}
 		else {
 			fputs("\nopen logfile\n", G_fp);
-			fprintf( G_fp, "Copyright (c) 2007-2019, MEN Mikro Elektronik GmbH\n");
+			fprintf( G_fp, "Copyright 2007-2019, MEN Mikro Elektronik GmbH\n");
 			fflush(G_fp);
 			G_logfile_flag = 1;
 		}
